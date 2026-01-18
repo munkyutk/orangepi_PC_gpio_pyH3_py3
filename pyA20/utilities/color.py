@@ -6,82 +6,82 @@ class Colors:
         self = self
 
     def test(self):
-        print "Regular"
-        print self.Black + "Black" + self.Color_Off
-        print self.Red + "Red" + self.Color_Off
-        print self.Green + "Green" + self.Color_Off
-        print self.Yellow + "Yellow" + self.Color_Off
-        print self.Blue + "Blue" + self.Color_Off
-        print self.Purple + "Purple" + self.Color_Off
-        print self.Cyan + "Cyan" + self.Color_Off
-        print self.White + "White" + self.Color_Off
-        print ""
+        print("Regular")
+        print(self.Black + "Black" + self.Color_Off)
+        print(self.Red + "Red" + self.Color_Off)
+        print(self.Green + "Green" + self.Color_Off)
+        print(self.Yellow + "Yellow" + self.Color_Off)
+        print(self.Blue + "Blue" + self.Color_Off)
+        print(self.Purple + "Purple" + self.Color_Off)
+        print(self.Cyan + "Cyan" + self.Color_Off)
+        print(self.White + "White" + self.Color_Off)
+        print("")
 
-        print "Bold"
-        print self.BBlack + "BBlack" + self.Color_Off
-        print self.BRed + "BRed" + self.Color_Off
-        print self.BGreen + "BGreen" + self.Color_Off
-        print self.BYellow + "BYellow" + self.Color_Off
-        print self.BBlue + "BBlue" + self.Color_Off
-        print self.BPurple + "BPurple" + self.Color_Off
-        print self.BCyan + "BCyan" + self.Color_Off
-        print self.BWhite + "BWhite" + self.Color_Off
-        print ""
+        print("Bold")
+        print(self.BBlack + "BBlack" + self.Color_Off)
+        print(self.BRed + "BRed" + self.Color_Off)
+        print(self.BGreen + "BGreen" + self.Color_Off)
+        print(self.BYellow + "BYellow" + self.Color_Off)
+        print(self.BBlue + "BBlue" + self.Color_Off)
+        print(self.BPurple + "BPurple" + self.Color_Off)
+        print(self.BCyan + "BCyan" + self.Color_Off)
+        print(self.BWhite + "BWhite" + self.Color_Off)
+        print("")
 
-        print "Underline"
-        print self.UBlack + "UBlack" + self.Color_Off
-        print self.URed + "URed" + self.Color_Off
-        print self.UGreen + "UGreen" + self.Color_Off
-        print self.UYellow + "UYellow" + self.Color_Off
-        print self.UBlue + "UBlue" + self.Color_Off
-        print self.UPurple + "UPurple" + self.Color_Off
-        print self.UCyan + "UCyan" + self.Color_Off
-        print self.UWhite + "UWhite" + self.Color_Off
-        print ""
+        print("Underline")
+        print(self.UBlack + "UBlack" + self.Color_Off)
+        print(self.URed + "URed" + self.Color_Off)
+        print(self.UGreen + "UGreen" + self.Color_Off)
+        print(self.UYellow + "UYellow" + self.Color_Off)
+        print(self.UBlue + "UBlue" + self.Color_Off)
+        print(self.UPurple + "UPurple" + self.Color_Off)
+        print(self.UCyan + "UCyan" + self.Color_Off)
+        print(self.UWhite + "UWhite" + self.Color_Off)
+        print("")
 
-        print "Background"
-        print self.On_Black + "On_Black" + self.Color_Off
-        print self.On_Red + "On_Red" + self.Color_Off
-        print self.On_Green + "On_Green" + self.Color_Off
-        print self.On_Yellow + "On_Yellow" + self.Color_Off
-        print self.On_Blue + "On_Blue" + self.Color_Off
-        print self.On_Purple + "On_Purple" + self.Color_Off
-        print self.On_Cyan + "On_Cyan" + self.Color_Off
-        print self.On_White + "On_White" + self.Color_Off
-        print ""
+        print("Background")
+        print(self.On_Black + "On_Black" + self.Color_Off)
+        print(self.On_Red + "On_Red" + self.Color_Off)
+        print(self.On_Green + "On_Green" + self.Color_Off)
+        print(self.On_Yellow + "On_Yellow" + self.Color_Off)
+        print(self.On_Blue + "On_Blue" + self.Color_Off)
+        print(self.On_Purple + "On_Purple" + self.Color_Off)
+        print(self.On_Cyan + "On_Cyan" + self.Color_Off)
+        print(self.On_White + "On_White" + self.Color_Off)
+        print("")
 
-        print "High Intensity"
-        print self.IBlack + "IBlack" + self.Color_Off
-        print self.IRed + "IRed" + self.Color_Off
-        print self.IGreen + "IGreen" + self.Color_Off
-        print self.IYellow + "IYellow" + self.Color_Off
-        print self.IBlue + "IBlue" + self.Color_Off
-        print self.IPurple + "IPurple" + self.Color_Off
-        print self.ICyan + "ICyan" + self.Color_Off
-        print self.IWhite + "IWhite" + self.Color_Off
-        print ""
+        print("High Intensity")
+        print(self.IBlack + "IBlack" + self.Color_Off)
+        print(self.IRed + "IRed" + self.Color_Off)
+        print(self.IGreen + "IGreen" + self.Color_Off)
+        print(self.IYellow + "IYellow" + self.Color_Off)
+        print(self.IBlue + "IBlue" + self.Color_Off)
+        print(self.IPurple + "IPurple" + self.Color_Off)
+        print(self.ICyan + "ICyan" + self.Color_Off)
+        print(self.IWhite + "IWhite" + self.Color_Off)
+        print("")
 
-        print "Bold High Intensity"
-        print self.BIBlack + "BIBlack" + self.Color_Off
-        print self.BIRed + "BIRed" + self.Color_Off
-        print self.BIGreen + "BIGreen" + self.Color_Off
-        print self.BIYellow + "BIYellow" + self.Color_Off
-        print self.BIBlue + "BIBlue" + self.Color_Off
-        print self.BIPurple + "BIPurple" + self.Color_Off
-        print self.BICyan + "BICyan" + self.Color_Off
-        print self.BIWhite + "BIWhite" + self.Color_Off
-        print ""
+        print("Bold High Intensity")
+        print(self.BIBlack + "BIBlack" + self.Color_Off)
+        print(self.BIRed + "BIRed" + self.Color_Off)
+        print(self.BIGreen + "BIGreen" + self.Color_Off)
+        print(self.BIYellow + "BIYellow" + self.Color_Off)
+        print(self.BIBlue + "BIBlue" + self.Color_Off)
+        print(self.BIPurple + "BIPurple" + self.Color_Off)
+        print(self.BICyan + "BICyan" + self.Color_Off)
+        print(self.BIWhite + "BIWhite" + self.Color_Off)
+        print("")
 
-        print "High Intensity backgrounds"
-        print self.On_IBlack + "On_IBlack" + self.Color_Off
-        print self.On_IRed + "On_IRed" + self.Color_Off
-        print self.On_IGreen + "On_IGreen" + self.Color_Off
-        print self.On_IYellow + "On_IYellow" + self.Color_Off
-        print self.On_IBlue + "On_IBlue" + self.Color_Off
-        print self.On_IPurple + "On_IPurple" + self.Color_Off
-        print self.On_ICyan + "On_ICyan" + self.Color_Off
-        print self.On_IWhite + "On_IWhite" + self.Color_Off
-        print ""
+        print("High Intensity backgrounds")
+        print(self.On_IBlack + "On_IBlack" + self.Color_Off)
+        print(self.On_IRed + "On_IRed" + self.Color_Off)
+        print(self.On_IGreen + "On_IGreen" + self.Color_Off)
+        print(self.On_IYellow + "On_IYellow" + self.Color_Off)
+        print(self.On_IBlue + "On_IBlue" + self.Color_Off)
+        print(self.On_IPurple + "On_IPurple" + self.Color_Off)
+        print(self.On_ICyan + "On_ICyan" + self.Color_Off)
+        print(self.On_IWhite + "On_IWhite" + self.Color_Off)
+        print("")
 
     # Reset
     Color_Off = '\033[0m'  # Text Reset

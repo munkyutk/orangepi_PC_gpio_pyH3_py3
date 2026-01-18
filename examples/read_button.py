@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Read button.
 
 Make gpio input and enable pull-up resistor.

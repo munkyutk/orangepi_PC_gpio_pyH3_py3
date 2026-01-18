@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Basic blinking led example.
 
 The led on A20-OLinuXino-MICRO  blinks with rate of 1Hz like "heartbeat".
